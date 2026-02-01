@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Play, Pause, RotateCcw, AlertCircle, Clock } from 'lucide-react';
-import { useLocalStorage } from '../../hooks/useLocalStorage';
+import { useLocalStorage } from '../../hook/useLocalStorage';
 
 const CountdownTimer = () => {
   const [initialSeconds, setInitialSeconds] = useLocalStorage('timerInitialSeconds', 10);
