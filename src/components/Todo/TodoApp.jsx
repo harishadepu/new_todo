@@ -1,5 +1,5 @@
 import React, { useReducer, useEffect } from 'react';
-import { useLocalStorage } from '../../hooks/useLocalStorage';
+import { useLocalStorage } from '../../Hooks/useLocalStorage';
 import TaskForm from './TaskForm';
 import TaskList from './TaskList';
 import FilterControls from './FilterControls';
